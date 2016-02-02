@@ -11,6 +11,7 @@ Importing the Project into Eclipse IDE
 4. log4j.xml [Contains logging config for log4j]
 
 Running the Test:
+
 5. Open testng.xml and change the parameter emailID value to "test22@email.com" 
     [You need to change this value after each test suite run. Eg: subsequent runs you want to enter "test23@email.com", test24@email.com]
 
@@ -21,6 +22,7 @@ Running the Test:
 8. TestNG.java [Contains test steps that are prioritized in order for easy understanding and execution]
 
 Test Reports:
+
 9. After the test suite successfully runs
 
 10. Goto test-folder->index.html ->open with web browser 
