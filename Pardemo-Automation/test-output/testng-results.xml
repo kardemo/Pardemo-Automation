@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 1: LogIn Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: testCreateList Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: testDuplicateList Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: testRenameList Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: testRecreateList Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: testCreateProspect Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: testAddProspectToList Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: testsendEmail Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Logout Success]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="119111" started-at="2016-02-02T17:17:06Z" finished-at="2016-02-02T17:19:05Z">
+    <groups>
+    </groups>
+    <test name="SF Automation Tests Firefox" duration-ms="119111" started-at="2016-02-02T17:17:06Z" finished-at="2016-02-02T17:19:05Z">
+      <class name="automationFramework.TestNG">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:automationFramework.TestNG@d64342]" name="beforeMethod" is-config="true" duration-ms="8257" started-at="2016-02-02T12:17:06Z" finished-at="2016-02-02T12:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:automationFramework.TestNG@d64342]" name="testLogin" duration-ms="2678" started-at="2016-02-02T12:17:14Z" finished-at="2016-02-02T12:17:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: LogIn Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testCreateList()[pri:2, instance:automationFramework.TestNG@d64342]" name="testCreateList" duration-ms="8205" started-at="2016-02-02T12:17:17Z" finished-at="2016-02-02T12:17:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 2: testCreateList Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateList -->
+        <test-method status="PASS" signature="testDuplicateList()[pri:3, instance:automationFramework.TestNG@d64342]" name="testDuplicateList" duration-ms="11757" started-at="2016-02-02T12:17:25Z" finished-at="2016-02-02T12:17:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 3: testDuplicateList Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDuplicateList -->
+        <test-method status="PASS" signature="testRenameList()[pri:4, instance:automationFramework.TestNG@d64342]" name="testRenameList" duration-ms="13949" started-at="2016-02-02T12:17:37Z" finished-at="2016-02-02T12:17:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 4: testRenameList Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRenameList -->
+        <test-method status="PASS" signature="testRecreateList()[pri:5, instance:automationFramework.TestNG@d64342]" name="testRecreateList" duration-ms="9759" started-at="2016-02-02T12:17:51Z" finished-at="2016-02-02T12:18:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 5: testRecreateList Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRecreateList -->
+        <test-method status="PASS" signature="testCreateProspect(java.lang.String)[pri:6, instance:automationFramework.TestNG@d64342]" name="testCreateProspect" duration-ms="14560" started-at="2016-02-02T12:18:00Z" finished-at="2016-02-02T12:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[atest16@email.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 6: testCreateProspect Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateProspect -->
+        <test-method status="PASS" signature="testAddProspectToList(java.lang.String)[pri:7, instance:automationFramework.TestNG@d64342]" name="testAddProspectToList" duration-ms="18960" started-at="2016-02-02T12:18:15Z" finished-at="2016-02-02T12:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[atest16@email.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step 6: testAddProspectToList Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddProspectToList -->
+        <test-method status="PASS" signature="testsendEmail()[pri:9, instance:automationFramework.TestNG@d64342]" name="testsendEmail" duration-ms="28966" started-at="2016-02-02T12:18:34Z" finished-at="2016-02-02T12:19:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 9: testsendEmail Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testsendEmail -->
+        <test-method status="PASS" signature="testLogout()[pri:10, instance:automationFramework.TestNG@d64342]" name="testLogout" duration-ms="1976" started-at="2016-02-02T12:19:03Z" finished-at="2016-02-02T12:19:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 10: Logout Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automationFramework.TestNG@d64342]" name="closeBrowser" is-config="true" duration-ms="11" started-at="2016-02-02T12:19:05Z" finished-at="2016-02-02T12:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automationFramework.TestNG -->
+    </test> <!-- SF Automation Tests Firefox -->
+  </suite> <!-- Test Suite -->
+</testng-results>

@@ -1,0 +1,146 @@
+2016-02-02 12:17:06,449 INFO  [Log] ------------------------------------- 
+2016-02-02 12:17:06,450 INFO  [Log] ------- launchBrowser Begins -------- 
+2016-02-02 12:17:11,593 INFO  [Log] New Driver instantiated 
+2016-02-02 12:17:11,667 INFO  [Log] Implicit wait for 10 seconds 
+2016-02-02 12:17:11,991 INFO  [Log] Maximize window 
+2016-02-02 12:17:14,396 INFO  [Log] Going to baseURL  
+2016-02-02 12:17:14,411 INFO  [Log] randomName is Beta-2016/02/02 12:17:14 
+2016-02-02 12:17:14,411 INFO  [Log] ------- launchBrowser Ends ---------- 
+2016-02-02 12:17:14,411 INFO  [Log] ------------------------------------- 
+2016-02-02 12:17:14,427 INFO  [Log] ************************************************ 
+2016-02-02 12:17:14,427 INFO  [Log] *************testLoginStarts *************** 
+2016-02-02 12:17:14,428 INFO  [Log] ************************************************ 
+2016-02-02 12:17:17,096 INFO  [Log] ************************************************ 
+2016-02-02 12:17:17,096 INFO  [Log] *************testLoginEnds *************** 
+2016-02-02 12:17:17,096 INFO  [Log] ************************************************ 
+2016-02-02 12:17:17,099 INFO  [Log] ************************************************ 
+2016-02-02 12:17:17,100 INFO  [Log] *************testCreateListStarts *************** 
+2016-02-02 12:17:17,100 INFO  [Log] ************************************************ 
+2016-02-02 12:17:17,109 INFO  [Log] Initializing Actions 
+2016-02-02 12:17:17,243 INFO  [Log] Menu Market Hover Link 
+2016-02-02 12:17:17,331 INFO  [Log] Menu Market->Segment Hover Link 
+2016-02-02 12:17:17,935 INFO  [Log] Waiting for Market->Segment->List Link 
+2016-02-02 12:17:18,042 INFO  [Log] Clicking Market->Segment->List Link 
+2016-02-02 12:17:20,522 INFO  [Log] Waiting for marketing->Segmentation->addListXpath 
+2016-02-02 12:17:21,448 INFO  [Log] Click on marketing->Segmentation-> New AddList link 
+2016-02-02 12:17:22,245 INFO  [Log] Waiting for createList dialog to open 
+2016-02-02 12:17:22,546 INFO  [Log] Entered Random name is Beta-2016/02/02 12:17:14 
+2016-02-02 12:17:23,940 INFO  [Log] Clicking createList/saveList button  
+2016-02-02 12:17:25,157 INFO  [Log] Beta-2016/02/02 12:17:14 - Pardot 
+2016-02-02 12:17:25,304 INFO  [Log] ************************************************ 
+2016-02-02 12:17:25,304 INFO  [Log] *************testCreateListEnds *************** 
+2016-02-02 12:17:25,304 INFO  [Log] ************************************************ 
+2016-02-02 12:17:25,306 INFO  [Log] ************************************************ 
+2016-02-02 12:17:25,306 INFO  [Log] *************testDuplicateListStarts *************** 
+2016-02-02 12:17:25,306 INFO  [Log] ************************************************ 
+2016-02-02 12:17:25,306 INFO  [Log] Initializing Actions 
+2016-02-02 12:17:25,355 INFO  [Log] Menu Market Hover Link 
+2016-02-02 12:17:25,403 INFO  [Log] Menu Market->Segment Hover Link 
+2016-02-02 12:17:26,110 INFO  [Log] Waiting for Market->Segment->List Link 
+2016-02-02 12:17:26,224 INFO  [Log] Clicking Market->Segment->List Link 
+2016-02-02 12:17:29,280 INFO  [Log] Waiting for marketing->Segmentation->addListXpath 
+2016-02-02 12:17:29,404 INFO  [Log] Click on marketing->Segmentation-> New AddList link 
+2016-02-02 12:17:30,166 INFO  [Log] Waiting for createList dialog to open 
+2016-02-02 12:17:30,476 INFO  [Log] Entered Random name is Beta-2016/02/02 12:17:14 
+2016-02-02 12:17:33,621 INFO  [Log] Clicking createList/saveList button  
+2016-02-02 12:17:33,716 INFO  [Log] Please input a unique value for this field 
+2016-02-02 12:17:37,062 INFO  [Log] ************************************************ 
+2016-02-02 12:17:37,062 INFO  [Log] *************testDuplicateListEnds *************** 
+2016-02-02 12:17:37,062 INFO  [Log] ************************************************ 
+2016-02-02 12:17:37,064 INFO  [Log] ************************************************ 
+2016-02-02 12:17:37,064 INFO  [Log] *************testRenameListStarts *************** 
+2016-02-02 12:17:37,064 INFO  [Log] ************************************************ 
+2016-02-02 12:17:37,064 INFO  [Log] Initializing Actions 
+2016-02-02 12:17:37,171 INFO  [Log] Menu Market Hover Link 
+2016-02-02 12:17:37,264 INFO  [Log] Menu Market->Segment Hover Link 
+2016-02-02 12:17:37,880 INFO  [Log] Waiting for Market->Segment->List Link 
+2016-02-02 12:17:38,066 INFO  [Log] Clicking Market->Segment->List Link 
+2016-02-02 12:17:42,541 INFO  [Log] Entering list nameBeta-2016/02/02 12:17:14 
+2016-02-02 12:17:42,971 INFO  [Log] Clicking on list name linkBeta-2016/02/02 12:17:14 
+2016-02-02 12:17:49,161 INFO  [Log] rename Original List nameBeta-2016/02/02 12:17:38 
+2016-02-02 12:17:50,425 INFO  [Log] Beta-2016/02/02 12:17:38 - Pardot 
+2016-02-02 12:17:51,013 INFO  [Log] ************************************************ 
+2016-02-02 12:17:51,013 INFO  [Log] *************testRenameListEnds *************** 
+2016-02-02 12:17:51,013 INFO  [Log] ************************************************ 
+2016-02-02 12:17:51,015 INFO  [Log] ************************************************ 
+2016-02-02 12:17:51,015 INFO  [Log] *************testRecreateListStarts *************** 
+2016-02-02 12:17:51,015 INFO  [Log] ************************************************ 
+2016-02-02 12:17:51,015 INFO  [Log] Initializing Actions 
+2016-02-02 12:17:51,471 INFO  [Log] Menu Market Hover Link 
+2016-02-02 12:17:51,540 INFO  [Log] Menu Market->Segment Hover Link 
+2016-02-02 12:17:52,500 INFO  [Log] Waiting for Market->Segment->List Link 
+2016-02-02 12:17:52,625 INFO  [Log] Clicking Market->Segment->List Link 
+2016-02-02 12:17:56,231 INFO  [Log] Waiting for marketing->Segmentation->addListXpath 
+2016-02-02 12:17:56,363 INFO  [Log] Click on marketing->Segmentation-> New AddList link 
+2016-02-02 12:17:57,182 INFO  [Log] Waiting for createList dialog to open 
+2016-02-02 12:17:57,474 INFO  [Log] Entered Random name is Beta-2016/02/02 12:17:14 
+2016-02-02 12:17:59,398 INFO  [Log] Clicking createList/saveList button  
+2016-02-02 12:18:00,616 INFO  [Log] Beta-2016/02/02 12:17:14 - Pardot 
+2016-02-02 12:18:00,774 INFO  [Log] ************************************************ 
+2016-02-02 12:18:00,774 INFO  [Log] *************testRecreateListEnds *************** 
+2016-02-02 12:18:00,774 INFO  [Log] ************************************************ 
+2016-02-02 12:18:00,775 INFO  [Log] ************************************************ 
+2016-02-02 12:18:00,775 INFO  [Log] *************testCreateProspectStarts *************** 
+2016-02-02 12:18:00,775 INFO  [Log] ************************************************ 
+2016-02-02 12:18:00,794 INFO  [Log] Initializing Actions 
+2016-02-02 12:18:00,825 INFO  [Log] Menu Prospect Hover Link 
+2016-02-02 12:18:01,598 INFO  [Log] Menu Prospect->List Hover Link 
+2016-02-02 12:18:04,682 INFO  [Log] Clicking on Prospect->List->AddProspect Link 
+2016-02-02 12:18:06,397 INFO  [Log] Waiting for Prospect->List->AddProspect New form 
+2016-02-02 12:18:06,714 INFO  [Log] --- Filling AddProspect form ----  
+2016-02-02 12:18:06,714 INFO  [Log] Filling AddProspect form Selecting Campaign 
+2016-02-02 12:18:07,212 INFO  [Log] Total campaignWeblist is 80 
+2016-02-02 12:18:07,911 INFO  [Log] Selected campaignWeblist 24 
+2016-02-02 12:18:08,130 INFO  [Log] Total profileWeblist is 245 
+2016-02-02 12:18:09,866 INFO  [Log] Selected profileWeblist 127 
+2016-02-02 12:18:10,154 INFO  [Log] Enter Score Value 5 
+2016-02-02 12:18:10,463 INFO  [Log] Click on Save to Create New Prospect 
+2016-02-02 12:18:10,463 INFO  [Log] Waiting for prospect page title to contain id 
+2016-02-02 12:18:15,277 INFO  [Log] expectedValue is atest16@email.com 
+2016-02-02 12:18:15,335 INFO  [Log] ************************************************ 
+2016-02-02 12:18:15,335 INFO  [Log] *************testCreateProspectEnds *************** 
+2016-02-02 12:18:15,335 INFO  [Log] ************************************************ 
+2016-02-02 12:18:15,345 INFO  [Log] ************************************************ 
+2016-02-02 12:18:15,345 INFO  [Log] *************testAddProspectToListStarts *************** 
+2016-02-02 12:18:15,345 INFO  [Log] ************************************************ 
+2016-02-02 12:18:15,371 INFO  [Log] Initializing Actions 
+2016-02-02 12:18:15,435 INFO  [Log] Menu Prospect Hover Link 
+2016-02-02 12:18:15,649 INFO  [Log] Menu Prospect->List Hover Link 
+2016-02-02 12:18:18,129 INFO  [Log] atest16@email.com 
+2016-02-02 12:18:18,188 INFO  [Log] https://pi.pardot.com/prospect/read/id/72793021 
+2016-02-02 12:18:18,241 INFO  [Log] https://pi.pardot.com/prospect/read/id/72793021 
+2016-02-02 12:18:18,292 INFO  [Log] Prospect id doesn't contain # https://pi.pardot.com/prospect/read/id/72793021 
+2016-02-02 12:18:34,298 INFO  [Log] actText is Prospect lists saved successfully 
+2016-02-02 12:18:34,298 INFO  [Log] ************************************************ 
+2016-02-02 12:18:34,298 INFO  [Log] *************testAddProspectToListEnds *************** 
+2016-02-02 12:18:34,298 INFO  [Log] ************************************************ 
+2016-02-02 12:18:34,299 INFO  [Log] ************************************************ 
+2016-02-02 12:18:34,299 INFO  [Log] *************testsendEmailStarts *************** 
+2016-02-02 12:18:34,299 INFO  [Log] ************************************************ 
+2016-02-02 12:18:34,353 INFO  [Log] Menu Marketing Hover Link 
+2016-02-02 12:18:34,412 INFO  [Log] Menu Marketing->Email Hover Link 
+2016-02-02 12:18:34,974 INFO  [Log] Waiting for Marketing->Email->New Email Link 
+2016-02-02 12:18:35,086 INFO  [Log] Clicking Marketing->Email->New Email Link 
+2016-02-02 12:18:42,103 INFO  [Log] Click on Choose 
+2016-02-02 12:18:42,394 INFO  [Log] save fill email form 
+2016-02-02 12:18:58,154 INFO  [Log] Clicked on LstDrop Down  
+2016-02-02 12:18:59,887 INFO  [Log] Send to Specific User 
+2016-02-02 12:19:00,591 INFO  [Log] Enter subject and click save 
+2016-02-02 12:19:03,256 INFO  [Log] click send email 
+2016-02-02 12:19:03,264 INFO  [Log] Email id doesn't contain #  
+2016-02-02 12:19:03,264 INFO  [Log] Email id is 15841 
+2016-02-02 12:19:03,264 INFO  [Log] ************************************************ 
+2016-02-02 12:19:03,264 INFO  [Log] *************testsendEmailEnds *************** 
+2016-02-02 12:19:03,264 INFO  [Log] ************************************************ 
+2016-02-02 12:19:03,266 INFO  [Log] ************************************************ 
+2016-02-02 12:19:03,266 INFO  [Log] *************testLogoutStarts *************** 
+2016-02-02 12:19:03,266 INFO  [Log] ************************************************ 
+2016-02-02 12:19:03,513 INFO  [Log] Move mouse to LogOut 
+2016-02-02 12:19:05,210 INFO  [Log] Clicked on LogOut link 
+2016-02-02 12:19:05,241 INFO  [Log] ************************************************ 
+2016-02-02 12:19:05,241 INFO  [Log] *************testLogoutEnds *************** 
+2016-02-02 12:19:05,241 INFO  [Log] ************************************************ 
+2016-02-02 12:19:05,243 INFO  [Log] ------------------------------------- 
+2016-02-02 12:19:05,243 INFO  [Log] ------- closeBrowser Starts --------- 
+2016-02-02 12:19:05,253 INFO  [Log] ------- closeBrowser Ends ----------- 
+2016-02-02 12:19:05,253 INFO  [Log] ------------------------------------- 

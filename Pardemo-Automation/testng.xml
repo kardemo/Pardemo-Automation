@@ -1,0 +1,27 @@
+<suite name="Test Suite" parallel="none">
+ <test name="SF Automation Tests Firefox" >
+  <parameter name= "browser" value= "firefox" />
+  <parameter name= "emailID" value= "atest18@email.com" />
+  
+  <!-- 
+  <parameter name= "userName" value= "pardot.applicant@pardot.com" />
+  <parameter name= "passWord" value= "Applicant2012" />
+  <parameter name= "baseUrl" value= "https://pi.pardot.com" />
+  <parameter name= "randomName" value= "Tester09" />
+  <parameter name= "renameOriginalListName" value= "Tester10" />
+  <parameter name= "emailID" value= "test01@email.com" />
+  <parameter name= "scoreVal" value= "5" />
+   -->
+ <classes>
+    <class name="automationFramework.TestNG"/>
+ </classes>
+ </test>
+ <!-- Cross Browser Testing - Chrome testing
+ <test name="SF Automation Tests Chrome" >
+  <parameter name="browser" value="chrome" />
+   <classes>
+    <class name="SFAutomation.TestNG"/>
+   </classes>
+  </test>
+ -->
+</suite>
