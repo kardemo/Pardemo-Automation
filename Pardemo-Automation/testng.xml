@@ -1,7 +1,7 @@
 <suite name="Test Suite" parallel="none">
  <test name="SF Automation Tests Firefox" >
   <parameter name= "browser" value= "firefox" />
-  <parameter name= "emailID" value= "atest18@email.com" />
+  <parameter name= "emailID" value= "atest20@email.com" />
   
   <!-- 
   <parameter name= "userName" value= "pardot.applicant@pardot.com" />
