@@ -10,6 +10,8 @@ Importing the Project into Eclipse IDE
 
 4. log4j.xml [Contains logging config for log4j]
 
+In case, there is difficulty in importing the project using the above 4 steps then Scroll to end of this README.md file for optional section.
+
 Running the Test:
 
 5. Open testng.xml and change the parameter emailID value to "test22@email.com" 
@@ -32,4 +34,44 @@ Test Reports:
 
 12. All loggings are in logfile.log
 
+///////////////////////////////////// OPTIONAL ////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+In case you find it difficult to import the project into Eclipse then the simplest thing to do would be…these….
+
+1a. Install TestNG plugin for Eclipse. Download the Pardemo-Automation.zip and extract its contents.
+1b. Download the selenium jar, log4j jar
+http://selenium-release.storage.googleapis.com/2.50/selenium-java-2.50.1.zip
+http://mirror.stjschools.org/public/apache/logging/log4j/1.2.17/log4j-1.2.17.zip
+1c. Unzip them
+
+2a. Create a new Java Project named 'Pardemo-Automation'
+2b. RightClick on 'Pardemo-Automation' -> Properties -> Java build path -> Add external Jars
+2c. Select the selenium jar and alse the jars from lib folder in selenium that you unzipped in step 1c.
+2d. Select the log4j jar that you unzipped in step 1c.
+2e. RightClick on 'Pardemo-Automation' -> Properties -> Java build path -> Add library
+Select TestNG and click OK button
+
+3. We need to create 4 packages
+   a. Create a new package -> appModule
+   b. Create a new package -> automationFramework
+   c. Create a new package -> pageObjects
+   d. Create a new package -> utility
+
+4. Next, we want to create java class under these packages
+   a. Create a new java class under appModule named SignIn_Action.java
+   a. Create a new java class under automationFramework named TestNG.java
+   a. Create a new java classes under pageObjects named (Login_Page.java, Logout_Page.java, MarketingEmail_Page.java, MarketingSegmentation_Page.java, ProspectList.java)
+   a. Create a new java classes under utility named (Constant.java, Log.java)
+
+5. Copy the contents of the extracted downloaded files into the corresponding new files that we created in step 4.
+
+6. In eclipse Create new files under 'Pardemo-Automation' project named [testng.xml, log4j.xml] 
+
+7. Copy the contents of the extracted downloaded files into the corresponding new files [testng.xml, log4j.xml]
+
+Done !!!
+
+Next, Follow steps on how to run the project.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
