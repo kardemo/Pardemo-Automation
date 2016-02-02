@@ -1,6 +1,7 @@
 # Pardemo-Automation
 
 Importing the Project into Eclipse IDE
+
 1. Import as new Git project into Eclipse [Need to have Git plugin and TestNG plugin installed]
 2. Add jars (Java Build Path-> External jar's [log4j, selenium] , library [TestNG]
 3. testng.xml [Contains all the params that will be used by the TestNG Framework]
